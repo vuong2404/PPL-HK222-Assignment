@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./target",
+        "./src/test",
+        "./src/main/mt22/parser"
+    ]
+}
