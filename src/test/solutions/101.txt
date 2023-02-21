@@ -1,1 +1,1 @@
-a,b,c,<EOF>
+// this is comment,<EOF>

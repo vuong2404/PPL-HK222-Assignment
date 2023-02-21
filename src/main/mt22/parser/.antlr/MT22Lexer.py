@@ -1,4 +1,4 @@
-# Generated from main/mt22/parser/MT22.g4 by ANTLR 4.9.2
+# Generated from c:\Users\Admin\Documents\assignment1-initial\src\main\mt22\parser\MT22.g4 by ANTLR 4.9.2
 from antlr4 import *
 from io import StringIO
 import sys
@@ -319,8 +319,8 @@ class MT22Lexer(Lexer):
         self._predicates = None
 
 
-    def check_vardecl_full_format(self, idlist, exprlist):
-    	return len(idlist.split(',')) == len(exprlist.split(','))
+    	def check_vardecl_full_format(self, idlist, exprlist):
+    		return len(idlist.split(',')) == len(exprlist.split(','))
 
 
     def action(self, localctx:RuleContext, ruleIndex:int, actionIndex:int):

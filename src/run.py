@@ -2,6 +2,7 @@ import sys
 import os
 import subprocess
 import unittest
+import shutil
 from antlr4 import *
 
 for path in ['./test/', './main/mt22/parser/']:
@@ -18,7 +19,8 @@ def main(argv):
         subprocess.run(["java", "-jar", ANTLR_JAR, "-o", "../target",
                        "-no-listener", "-visitor", "main/mt22/parser/MT22.g4"])
     elif argv[0] == 'clean':
-        subprocess.run(["rm", "-rf", TARGET_DIR + "/*"])
+        # subprocess.run(["rm", "-rf", TARGET_DIR + "/*"])
+        shutil.rmtree(TARGET_DIR)
 
     elif argv[0] == 'test':
         if not os.path.isdir(TARGET_DIR + "/" + GENERATE_DIR):
