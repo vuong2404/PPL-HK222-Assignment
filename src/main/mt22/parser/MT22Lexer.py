@@ -15,7 +15,7 @@ from lexererr import *
 def serializedATN():
     with StringIO() as buf:
         buf.write("\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\2=")
-        buf.write("\u01b8\b\1\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7")
+        buf.write("\u01ba\b\1\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7")
         buf.write("\t\7\4\b\t\b\4\t\t\t\4\n\t\n\4\13\t\13\4\f\t\f\4\r\t\r")
         buf.write("\4\16\t\16\4\17\t\17\4\20\t\20\4\21\t\21\4\22\t\22\4\23")
         buf.write("\t\23\4\24\t\24\4\25\t\25\4\26\t\26\4\27\t\27\4\30\t\30")
@@ -50,51 +50,51 @@ def serializedATN():
         buf.write(",\3,\3-\3-\3-\3.\3.\3.\3/\3/\3\60\3\60\3\60\3\61\3\61")
         buf.write("\3\62\3\62\3\62\3\63\3\63\3\63\3\64\3\64\3\64\3\65\3\65")
         buf.write("\3\66\3\66\3\67\3\67\38\38\39\39\3:\3:\3;\3;\3<\3<\3=")
-        buf.write("\3=\3>\6>\u01ac\n>\r>\16>\u01ad\3>\3>\3?\3?\3?\3@\3@\3")
-        buf.write("A\3A\3\u00aa\2B\3\2\5\2\7\2\t\2\13\2\r\3\17\4\21\5\23")
-        buf.write("\6\25\7\27\b\31\t\33\n\35\13\37\f!\r#\16%\17\'\20)\21")
-        buf.write("+\22-\23/\24\61\25\63\26\65\27\67\309\31;\32=\33?\34A")
-        buf.write("\35C\36E\37G I!K\"M#O$Q%S&U\'W(Y)[*]+_,a-c.e/g\60i\61")
-        buf.write("k\62m\63o\64q\65s\66u\67w8y9{:};\177<\u0081=\3\2\t\3\2")
-        buf.write("\62;\5\2C\\aac|\4\2GGgg\3\2\f\f\3\2\63;\3\2$$\5\2\13\f")
-        buf.write("\17\17\"\"\2\u01c7\2\r\3\2\2\2\2\17\3\2\2\2\2\21\3\2\2")
-        buf.write("\2\2\23\3\2\2\2\2\25\3\2\2\2\2\27\3\2\2\2\2\31\3\2\2\2")
-        buf.write("\2\33\3\2\2\2\2\35\3\2\2\2\2\37\3\2\2\2\2!\3\2\2\2\2#")
-        buf.write("\3\2\2\2\2%\3\2\2\2\2\'\3\2\2\2\2)\3\2\2\2\2+\3\2\2\2")
-        buf.write("\2-\3\2\2\2\2/\3\2\2\2\2\61\3\2\2\2\2\63\3\2\2\2\2\65")
-        buf.write("\3\2\2\2\2\67\3\2\2\2\29\3\2\2\2\2;\3\2\2\2\2=\3\2\2\2")
-        buf.write("\2?\3\2\2\2\2A\3\2\2\2\2C\3\2\2\2\2E\3\2\2\2\2G\3\2\2")
-        buf.write("\2\2I\3\2\2\2\2K\3\2\2\2\2M\3\2\2\2\2O\3\2\2\2\2Q\3\2")
-        buf.write("\2\2\2S\3\2\2\2\2U\3\2\2\2\2W\3\2\2\2\2Y\3\2\2\2\2[\3")
-        buf.write("\2\2\2\2]\3\2\2\2\2_\3\2\2\2\2a\3\2\2\2\2c\3\2\2\2\2e")
-        buf.write("\3\2\2\2\2g\3\2\2\2\2i\3\2\2\2\2k\3\2\2\2\2m\3\2\2\2\2")
-        buf.write("o\3\2\2\2\2q\3\2\2\2\2s\3\2\2\2\2u\3\2\2\2\2w\3\2\2\2")
-        buf.write("\2y\3\2\2\2\2{\3\2\2\2\2}\3\2\2\2\2\177\3\2\2\2\2\u0081")
-        buf.write("\3\2\2\2\3\u0083\3\2\2\2\5\u0088\3\2\2\2\7\u008c\3\2\2")
-        buf.write("\2\t\u008e\3\2\2\2\13\u0093\3\2\2\2\r\u009b\3\2\2\2\17")
-        buf.write("\u00a4\3\2\2\2\21\u00b0\3\2\2\2\23\u00b5\3\2\2\2\25\u00ba")
-        buf.write("\3\2\2\2\27\u00c0\3\2\2\2\31\u00c8\3\2\2\2\33\u00cb\3")
-        buf.write("\2\2\2\35\u00d0\3\2\2\2\37\u00d6\3\2\2\2!\u00dc\3\2\2")
-        buf.write("\2#\u00e0\3\2\2\2%\u00e9\3\2\2\2\'\u00ec\3\2\2\2)\u00f4")
-        buf.write("\3\2\2\2+\u00fb\3\2\2\2-\u0102\3\2\2\2/\u0107\3\2\2\2")
-        buf.write("\61\u010d\3\2\2\2\63\u0112\3\2\2\2\65\u0116\3\2\2\2\67")
-        buf.write("\u011f\3\2\2\29\u0122\3\2\2\2;\u012a\3\2\2\2=\u0140\3")
-        buf.write("\2\2\2?\u0142\3\2\2\2A\u0149\3\2\2\2C\u0163\3\2\2\2E\u016b")
-        buf.write("\3\2\2\2G\u016d\3\2\2\2I\u016f\3\2\2\2K\u0171\3\2\2\2")
-        buf.write("M\u0173\3\2\2\2O\u0175\3\2\2\2Q\u0177\3\2\2\2S\u017a\3")
-        buf.write("\2\2\2U\u017d\3\2\2\2W\u0180\3\2\2\2Y\u0182\3\2\2\2[\u0185")
-        buf.write("\3\2\2\2]\u0188\3\2\2\2_\u018a\3\2\2\2a\u018d\3\2\2\2")
-        buf.write("c\u018f\3\2\2\2e\u0192\3\2\2\2g\u0195\3\2\2\2i\u0198\3")
-        buf.write("\2\2\2k\u019a\3\2\2\2m\u019c\3\2\2\2o\u019e\3\2\2\2q\u01a0")
-        buf.write("\3\2\2\2s\u01a2\3\2\2\2u\u01a4\3\2\2\2w\u01a6\3\2\2\2")
-        buf.write("y\u01a8\3\2\2\2{\u01ab\3\2\2\2}\u01b1\3\2\2\2\177\u01b4")
-        buf.write("\3\2\2\2\u0081\u01b6\3\2\2\2\u0083\u0084\t\2\2\2\u0084")
-        buf.write("\4\3\2\2\2\u0085\u0087\5\3\2\2\u0086\u0085\3\2\2\2\u0087")
-        buf.write("\u008a\3\2\2\2\u0088\u0086\3\2\2\2\u0088\u0089\3\2\2\2")
-        buf.write("\u0089\6\3\2\2\2\u008a\u0088\3\2\2\2\u008b\u008d\t\3\2")
-        buf.write("\2\u008c\u008b\3\2\2\2\u008d\b\3\2\2\2\u008e\u008f\7\60")
-        buf.write("\2\2\u008f\u0090\5\5\3\2\u0090\n\3\2\2\2\u0091\u0092\7")
-        buf.write("\60\2\2\u0092\u0094\5\5\3\2\u0093\u0091\3\2\2\2\u0093")
+        buf.write("\3=\3>\6>\u01ac\n>\r>\16>\u01ad\3>\3>\3?\3?\3?\3?\3@\3")
+        buf.write("@\3@\3A\3A\3\u00aa\2B\3\2\5\2\7\2\t\2\13\2\r\3\17\4\21")
+        buf.write("\5\23\6\25\7\27\b\31\t\33\n\35\13\37\f!\r#\16%\17\'\20")
+        buf.write(")\21+\22-\23/\24\61\25\63\26\65\27\67\309\31;\32=\33?")
+        buf.write("\34A\35C\36E\37G I!K\"M#O$Q%S&U\'W(Y)[*]+_,a-c.e/g\60")
+        buf.write("i\61k\62m\63o\64q\65s\66u\67w8y9{:};\177<\u0081=\3\2\t")
+        buf.write("\3\2\62;\5\2C\\aac|\4\2GGgg\3\2\f\f\3\2\63;\3\2$$\5\2")
+        buf.write("\13\f\17\17\"\"\2\u01c9\2\r\3\2\2\2\2\17\3\2\2\2\2\21")
+        buf.write("\3\2\2\2\2\23\3\2\2\2\2\25\3\2\2\2\2\27\3\2\2\2\2\31\3")
+        buf.write("\2\2\2\2\33\3\2\2\2\2\35\3\2\2\2\2\37\3\2\2\2\2!\3\2\2")
+        buf.write("\2\2#\3\2\2\2\2%\3\2\2\2\2\'\3\2\2\2\2)\3\2\2\2\2+\3\2")
+        buf.write("\2\2\2-\3\2\2\2\2/\3\2\2\2\2\61\3\2\2\2\2\63\3\2\2\2\2")
+        buf.write("\65\3\2\2\2\2\67\3\2\2\2\29\3\2\2\2\2;\3\2\2\2\2=\3\2")
+        buf.write("\2\2\2?\3\2\2\2\2A\3\2\2\2\2C\3\2\2\2\2E\3\2\2\2\2G\3")
+        buf.write("\2\2\2\2I\3\2\2\2\2K\3\2\2\2\2M\3\2\2\2\2O\3\2\2\2\2Q")
+        buf.write("\3\2\2\2\2S\3\2\2\2\2U\3\2\2\2\2W\3\2\2\2\2Y\3\2\2\2\2")
+        buf.write("[\3\2\2\2\2]\3\2\2\2\2_\3\2\2\2\2a\3\2\2\2\2c\3\2\2\2")
+        buf.write("\2e\3\2\2\2\2g\3\2\2\2\2i\3\2\2\2\2k\3\2\2\2\2m\3\2\2")
+        buf.write("\2\2o\3\2\2\2\2q\3\2\2\2\2s\3\2\2\2\2u\3\2\2\2\2w\3\2")
+        buf.write("\2\2\2y\3\2\2\2\2{\3\2\2\2\2}\3\2\2\2\2\177\3\2\2\2\2")
+        buf.write("\u0081\3\2\2\2\3\u0083\3\2\2\2\5\u0088\3\2\2\2\7\u008c")
+        buf.write("\3\2\2\2\t\u008e\3\2\2\2\13\u0093\3\2\2\2\r\u009b\3\2")
+        buf.write("\2\2\17\u00a4\3\2\2\2\21\u00b0\3\2\2\2\23\u00b5\3\2\2")
+        buf.write("\2\25\u00ba\3\2\2\2\27\u00c0\3\2\2\2\31\u00c8\3\2\2\2")
+        buf.write("\33\u00cb\3\2\2\2\35\u00d0\3\2\2\2\37\u00d6\3\2\2\2!\u00dc")
+        buf.write("\3\2\2\2#\u00e0\3\2\2\2%\u00e9\3\2\2\2\'\u00ec\3\2\2\2")
+        buf.write(")\u00f4\3\2\2\2+\u00fb\3\2\2\2-\u0102\3\2\2\2/\u0107\3")
+        buf.write("\2\2\2\61\u010d\3\2\2\2\63\u0112\3\2\2\2\65\u0116\3\2")
+        buf.write("\2\2\67\u011f\3\2\2\29\u0122\3\2\2\2;\u012a\3\2\2\2=\u0140")
+        buf.write("\3\2\2\2?\u0142\3\2\2\2A\u0149\3\2\2\2C\u0163\3\2\2\2")
+        buf.write("E\u016b\3\2\2\2G\u016d\3\2\2\2I\u016f\3\2\2\2K\u0171\3")
+        buf.write("\2\2\2M\u0173\3\2\2\2O\u0175\3\2\2\2Q\u0177\3\2\2\2S\u017a")
+        buf.write("\3\2\2\2U\u017d\3\2\2\2W\u0180\3\2\2\2Y\u0182\3\2\2\2")
+        buf.write("[\u0185\3\2\2\2]\u0188\3\2\2\2_\u018a\3\2\2\2a\u018d\3")
+        buf.write("\2\2\2c\u018f\3\2\2\2e\u0192\3\2\2\2g\u0195\3\2\2\2i\u0198")
+        buf.write("\3\2\2\2k\u019a\3\2\2\2m\u019c\3\2\2\2o\u019e\3\2\2\2")
+        buf.write("q\u01a0\3\2\2\2s\u01a2\3\2\2\2u\u01a4\3\2\2\2w\u01a6\3")
+        buf.write("\2\2\2y\u01a8\3\2\2\2{\u01ab\3\2\2\2}\u01b1\3\2\2\2\177")
+        buf.write("\u01b5\3\2\2\2\u0081\u01b8\3\2\2\2\u0083\u0084\t\2\2\2")
+        buf.write("\u0084\4\3\2\2\2\u0085\u0087\5\3\2\2\u0086\u0085\3\2\2")
+        buf.write("\2\u0087\u008a\3\2\2\2\u0088\u0086\3\2\2\2\u0088\u0089")
+        buf.write("\3\2\2\2\u0089\6\3\2\2\2\u008a\u0088\3\2\2\2\u008b\u008d")
+        buf.write("\t\3\2\2\u008c\u008b\3\2\2\2\u008d\b\3\2\2\2\u008e\u008f")
+        buf.write("\7\60\2\2\u008f\u0090\5\5\3\2\u0090\n\3\2\2\2\u0091\u0092")
+        buf.write("\7\60\2\2\u0092\u0094\5\5\3\2\u0093\u0091\3\2\2\2\u0093")
         buf.write("\u0094\3\2\2\2\u0094\u0095\3\2\2\2\u0095\u0097\t\4\2\2")
         buf.write("\u0096\u0098\7/\2\2\u0097\u0096\3\2\2\2\u0097\u0098\3")
         buf.write("\2\2\2\u0098\u0099\3\2\2\2\u0099\u009a\5\5\3\2\u009a\f")
@@ -199,11 +199,12 @@ def serializedATN():
         buf.write("\u01aa\u01ac\t\b\2\2\u01ab\u01aa\3\2\2\2\u01ac\u01ad\3")
         buf.write("\2\2\2\u01ad\u01ab\3\2\2\2\u01ad\u01ae\3\2\2\2\u01ae\u01af")
         buf.write("\3\2\2\2\u01af\u01b0\b>\5\2\u01b0|\3\2\2\2\u01b1\u01b2")
-        buf.write("\13\2\2\2\u01b2\u01b3\b?\6\2\u01b3~\3\2\2\2\u01b4\u01b5")
-        buf.write("\13\2\2\2\u01b5\u0080\3\2\2\2\u01b6\u01b7\13\2\2\2\u01b7")
-        buf.write("\u0082\3\2\2\2\22\2\u0088\u008c\u0093\u0097\u00a1\u00aa")
-        buf.write("\u0132\u013b\u0140\u0145\u015b\u015d\u0166\u0168\u01ad")
-        buf.write("\7\3\37\2\3 \3\3!\4\b\2\2\3?\5")
+        buf.write("\7$\2\2\u01b2\u01b3\13\2\2\2\u01b3\u01b4\b?\6\2\u01b4")
+        buf.write("~\3\2\2\2\u01b5\u01b6\13\2\2\2\u01b6\u01b7\b@\7\2\u01b7")
+        buf.write("\u0080\3\2\2\2\u01b8\u01b9\13\2\2\2\u01b9\u0082\3\2\2")
+        buf.write("\2\22\2\u0088\u008c\u0093\u0097\u00a1\u00aa\u0132\u013b")
+        buf.write("\u0140\u0145\u015b\u015d\u0166\u0168\u01ad\b\3\37\2\3")
+        buf.write(" \3\3!\4\b\2\2\3?\5\3@\6")
         return buf.getvalue()
 
 
@@ -269,8 +270,8 @@ class MT22Lexer(Lexer):
     COMMA = 54
     SEMI = 55
     WS = 56
-    ERROR_CHAR = 57
-    UNCLOSE_STRING = 58
+    UNCLOSE_STRING = 57
+    ERROR_CHAR = 58
     ILLEGAL_ESCAPE = 59
 
     channelNames = [ u"DEFAULT_TOKEN_CHANNEL", u"HIDDEN" ]
@@ -295,7 +296,7 @@ class MT22Lexer(Lexer):
             "AND", "OR", "NOT_EQUAL", "LESS", "LESS_EQUAL", "GREATER_EQUAL", 
             "GREATER", "EQUAL", "ASSIGN", "INCREMENT", "CONCAT", "DECREMENT", 
             "LB", "RB", "LSB", "RSB", "LCB", "RCB", "COLON", "COMMA", "SEMI", 
-            "WS", "ERROR_CHAR", "UNCLOSE_STRING", "ILLEGAL_ESCAPE" ]
+            "WS", "UNCLOSE_STRING", "ERROR_CHAR", "ILLEGAL_ESCAPE" ]
 
     ruleNames = [ "Digit", "Digits", "Letter", "DECPART", "EXPART", "COMMENT_LINE", 
                   "COMMENT_MULTYLINE", "MAIN", "AUTO", "BREAK", "BOOLEAN", 
@@ -306,8 +307,8 @@ class MT22Lexer(Lexer):
                   "DIV", "MOD", "NOT", "AND", "OR", "NOT_EQUAL", "LESS", 
                   "LESS_EQUAL", "GREATER_EQUAL", "GREATER", "EQUAL", "ASSIGN", 
                   "INCREMENT", "CONCAT", "DECREMENT", "LB", "RB", "LSB", 
-                  "RSB", "LCB", "RCB", "COLON", "COMMA", "SEMI", "WS", "ERROR_CHAR", 
-                  "UNCLOSE_STRING", "ILLEGAL_ESCAPE" ]
+                  "RSB", "LCB", "RCB", "COLON", "COMMA", "SEMI", "WS", "UNCLOSE_STRING", 
+                  "ERROR_CHAR", "ILLEGAL_ESCAPE" ]
 
     grammarFileName = "MT22.g4"
 
@@ -319,17 +320,14 @@ class MT22Lexer(Lexer):
         self._predicates = None
 
 
-    def check_vardecl_full_format(self, idlist, exprlist):
-    	return len(idlist.split(',')) == len(exprlist.split(','))
-
-
     def action(self, localctx:RuleContext, ruleIndex:int, actionIndex:int):
         if self._actions is None:
             actions = dict()
             actions[29] = self.INTLIT_action 
             actions[30] = self.FLOATLIT_action 
             actions[31] = self.STRINGLIT_action 
-            actions[61] = self.ERROR_CHAR_action 
+            actions[61] = self.UNCLOSE_STRING_action 
+            actions[62] = self.ERROR_CHAR_action 
             self._actions = actions
         action = self._actions.get(ruleIndex, None)
         if action is not None:
@@ -353,8 +351,13 @@ class MT22Lexer(Lexer):
             self.text = self.text[1:-1]
      
 
-    def ERROR_CHAR_action(self, localctx:RuleContext , actionIndex:int):
+    def UNCLOSE_STRING_action(self, localctx:RuleContext , actionIndex:int):
         if actionIndex == 3:
+            raise UncloseString(self.text)
+     
+
+    def ERROR_CHAR_action(self, localctx:RuleContext , actionIndex:int):
+        if actionIndex == 4:
             raise ErrorToken(self.text)
      
 

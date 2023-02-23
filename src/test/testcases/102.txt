@@ -1,1 +1,6 @@
- "He, asked me: \"Where is John?\"" 
+
+        /* this is comment mutiple line
+        *line 1 
+        *line 2
+        */
+        */

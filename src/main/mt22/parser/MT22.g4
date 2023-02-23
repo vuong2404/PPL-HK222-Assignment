@@ -4,20 +4,23 @@ grammar MT22;
 from lexererr import *
 }
 
-@members {
-	def check_vardecl_full_format(self, idlist, exprlist):
-		return len(idlist.split(',')) == len(exprlist.split(','))
+@parser::members {
+countIDs = 0
+countExprs = 0 ;
 }
 
-options{
+// }
+options {
 	language=Python3;
 }
 
+
 program: decllist EOF ;
 decllist: decl decllist | decl ; 
-decl: vardecl | funcdecl ; 
-vardecl: idlist COLON typ (ASSIGN exprlist {check_vardecl_full_format($idlist.text, $exprlist.text)}?)? SEMI ;  
-idlist: ID COMMA idlist | ID ; 
+decl: vardecl | vardecl_fullformat | funcdecl ; 
+vardecl: idlist COLON typ SEMI ;
+vardecl_fullformat: {self.countIDs = 0 ; self.countExprs = 0} idlist COLON typ  ASSIGN  exprlistdecl {self.countIDs == self.countExprs}? SEMI   ;
+idlist: (ID COMMA idlist | ID) {self.countIDs += 1} ; 
 typ: BOOLEAN | INTEGER | STRING | FLOAT | arraytyp | AUTO ;
 arraytyp: ARRAY LSB INTLIT RSB OF (BOOLEAN | INTEGER | STRING | FLOAT) ; 
 
@@ -40,11 +43,13 @@ expr8: ID | INTLIT | FLOATLIT | STRINGLIT | arraylit | callexpr | subexpr  ;
 arraylit: LCB exprlist RCB ;
 callexpr: ID LB exprlist RB ;  
 subexpr: LB expr RB ; 
-exprlist: exprprime | ; 
-exprprime: expr COMMA exprprime  | expr ;  
+exprlist: exprprime |  ; 
+exprprime:  (expr COMMA exprprime  | expr) ;  
+exprlistdecl: (exprdeclprime |)   ;
+exprdeclprime: (expr COMMA exprdeclprime | expr) {self.countExprs += 1} ;
 
 
-stmt: vardecl | assignstmt | ifstmt | forstmt | whilestmt | dowhilestmt | breakstmt | continuestmt | returnstmt | callstmt | blockstmt ;
+stmt: vardecl | vardecl_fullformat | assignstmt | ifstmt | forstmt | whilestmt | dowhilestmt | breakstmt | continuestmt | returnstmt | callstmt | blockstmt ;
 assignstmt: expr7 | ID ASSIGN expr SEMI ;
 ifstmt: IF LB expr RB (stmt | blockstmt) (ELSE stmt | blockstmt)? ;
 forstmt: FOR LB ID ASSIGN expr COMMA expr1 COMMA expr RB (stmt | blockstmt);
@@ -144,6 +149,6 @@ SEMI:  ';' ;
 WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines
 
 
+UNCLOSE_STRING: '"' . {raise UncloseString(self.text)};
 ERROR_CHAR: . {raise ErrorToken(self.text)};
-UNCLOSE_STRING: .;
 ILLEGAL_ESCAPE: .;

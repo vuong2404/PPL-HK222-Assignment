@@ -203,8 +203,8 @@ class MT22Parser ( Parser ):
                       "MOD", "NOT", "AND", "OR", "NOT_EQUAL", "LESS", "LESS_EQUAL", 
                       "GREATER_EQUAL", "GREATER", "EQUAL", "ASSIGN", "INCREMENT", 
                       "CONCAT", "DECREMENT", "LB", "RB", "LSB", "RSB", "LCB", 
-                      "RCB", "COLON", "COMMA", "SEMI", "WS", "ERROR_CHAR", 
-                      "UNCLOSE_STRING", "ILLEGAL_ESCAPE" ]
+                      "RCB", "COLON", "COMMA", "SEMI", "WS", "UNCLOSE_STRING", 
+                      "ERROR_CHAR", "ILLEGAL_ESCAPE" ]
 
     RULE_program = 0
     RULE_decllist = 1
@@ -313,8 +313,8 @@ class MT22Parser ( Parser ):
     COMMA=54
     SEMI=55
     WS=56
-    ERROR_CHAR=57
-    UNCLOSE_STRING=58
+    UNCLOSE_STRING=57
+    ERROR_CHAR=58
     ILLEGAL_ESCAPE=59
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
@@ -325,8 +325,16 @@ class MT22Parser ( Parser ):
 
 
 
-    	def check_vardecl_full_format(self, idlist, exprlist):
-    		return len(idlist.split(',')) == len(exprlist.split(','))
+    def check_vardecl_full_format(self,type, idlist, exprlist):
+    	a = len(idlist.split(',')) 
+    	print(exprlist.split(","))
+    	if type.startswith('array'): 
+    		if exprlist.startswith('{'):
+    			return a == len(exprlist.split("},{"))
+    	elif type == 'string':
+    		if exprlist.startswith('"'):
+    			return a == len(exprlist.split('","')) ;
+    	return a == len(exprlist.split(','))
 
 
 
@@ -480,6 +488,7 @@ class MT22Parser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
             self._idlist = None # IdlistContext
+            self._typ = None # TypContext
             self._exprlist = None # ExprlistContext
 
         def idlist(self):
@@ -521,7 +530,7 @@ class MT22Parser ( Parser ):
             self.state = 94
             self.match(MT22Parser.COLON)
             self.state = 95
-            self.typ()
+            localctx._typ = self.typ()
             self.state = 100
             self._errHandler.sync(self)
             _la = self._input.LA(1)
@@ -531,9 +540,9 @@ class MT22Parser ( Parser ):
                 self.state = 97
                 localctx._exprlist = self.exprlist()
                 self.state = 98
-                if not check_vardecl_full_format((None if localctx._idlist is None else self._input.getText(localctx._idlist.start,localctx._idlist.stop)), (None if localctx._exprlist is None else self._input.getText(localctx._exprlist.start,localctx._exprlist.stop))):
+                if not self.check_vardecl_full_format((None if localctx._typ is None else self._input.getText(localctx._typ.start,localctx._typ.stop)), (None if localctx._idlist is None else self._input.getText(localctx._idlist.start,localctx._idlist.stop)), (None if localctx._exprlist is None else self._input.getText(localctx._exprlist.start,localctx._exprlist.stop))):
                     from antlr4.error.Errors import FailedPredicateException
-                    raise FailedPredicateException(self, "check_vardecl_full_format($idlist.text, $exprlist.text)")
+                    raise FailedPredicateException(self, "self.check_vardecl_full_format($typ.text, $idlist.text, $exprlist.text)")
 
 
             self.state = 102
@@ -2850,7 +2859,7 @@ class MT22Parser ( Parser ):
 
     def vardecl_sempred(self, localctx:VardeclContext, predIndex:int):
             if predIndex == 0:
-                return check_vardecl_full_format((None if localctx._idlist is None else self._input.getText(localctx._idlist.start,localctx._idlist.stop)), (None if localctx._exprlist is None else self._input.getText(localctx._exprlist.start,localctx._exprlist.stop)))
+                return self.check_vardecl_full_format((None if localctx._typ is None else self._input.getText(localctx._typ.start,localctx._typ.stop)), (None if localctx._idlist is None else self._input.getText(localctx._idlist.start,localctx._idlist.stop)), (None if localctx._exprlist is None else self._input.getText(localctx._exprlist.start,localctx._exprlist.stop)))
          
 
     def expr2_sempred(self, localctx:Expr2Context, predIndex:int):

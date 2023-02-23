@@ -29,6 +29,11 @@ class MT22Visitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by MT22Parser#vardecl_fullformat.
+    def visitVardecl_fullformat(self, ctx:MT22Parser.Vardecl_fullformatContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by MT22Parser#idlist.
     def visitIdlist(self, ctx:MT22Parser.IdlistContext):
         return self.visitChildren(ctx)
@@ -136,6 +141,16 @@ class MT22Visitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by MT22Parser#exprprime.
     def visitExprprime(self, ctx:MT22Parser.ExprprimeContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MT22Parser#exprlistdecl.
+    def visitExprlistdecl(self, ctx:MT22Parser.ExprlistdeclContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by MT22Parser#exprdeclprime.
+    def visitExprdeclprime(self, ctx:MT22Parser.ExprdeclprimeContext):
         return self.visitChildren(ctx)
 
 

@@ -34,8 +34,22 @@ class ParserSuite(unittest.TestCase):
         expect = "successful"
         self.assertTrue(TestParser.test(input, expect, 204))
     def test5(self):
-        input = """a: array [5] of integer = {1,2,3,4,5} ;"""
+        input = """a: array [5] of integer = {1,2,3,4,5};"""
         expect = "successful"
         self.assertTrue(TestParser.test(input, expect, 205))
+    def test6(self):
+        input = """a,b,c: string = {1,2,3,4,5};"""
+        expect = "Error on line 1 col 27: ;"
+        self.assertTrue(TestParser.test(input, expect, 206))
+    def test7(self): #faild
+        input = """a,b,c: string = "hello", "hello, World", "hello" ;"""
+        expect = "successful"
+        self.assertTrue(TestParser.test(input, expect, 207))
+    def test8(self):
+        input = """a,b,c: string = {1,2,3,4,5};"""
+        expect = "Error on line 1 col 27: ;"
+        self.assertTrue(TestParser.test(input, expect, 208))
+    
+    
     
 

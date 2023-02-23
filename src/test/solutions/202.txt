@@ -1,1 +1,1 @@
-name 'check_vardecl_full_format' is not defined
+Error on line 1 col 29: ;

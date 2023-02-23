@@ -1,1 +1,1 @@
-name 'check_vardecl_full_format' is not defined
+successful
