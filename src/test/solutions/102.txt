@@ -1,4 +1,1 @@
-/* this is comment mutiple line
-        *line 1 
-        *line 2
-        */,*,/,<EOF>
+Auto,False,FunCtion,Do,mcajc,_,___,_9312,<EOF>

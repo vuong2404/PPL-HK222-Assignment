@@ -1,1 +1,1 @@
-a,=,a,::,string operator,<EOF>
+15375,_,<EOF>

@@ -1,1 +1,1 @@
-a, b: array [5] of integer = 3,4;
+wduH3Uqoc, ZSliw2f9T, SjOiHOwvK:integer;

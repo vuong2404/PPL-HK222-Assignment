@@ -1,1 +1,1 @@
-a,:,array,[,4,],of,integer,=,{,1,,,5,,,7,,,12,},<EOF>
+printInt,(,),<EOF>

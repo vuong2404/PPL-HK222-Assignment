@@ -1,1 +1,1 @@
-a,b,c: string = {1,2,3,4,5};
+EhrJHKzeO, OLp5RUAbd:void;

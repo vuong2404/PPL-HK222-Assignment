@@ -3,5 +3,6 @@
         "./target",
         "./src/test",
         "./src/main/mt22/parser"
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }

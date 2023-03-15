@@ -1,1 +1,1 @@
-a, b: array [5] of integer;
+ovalOkHdJ:string;

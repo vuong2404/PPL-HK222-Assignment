@@ -1,1 +1,1 @@
-{,Kangxi,,,Yongzheng,,,Qianlong,},<EOF>
+abca,(,),<EOF>
