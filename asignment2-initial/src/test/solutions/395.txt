@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, IntegerType, [Param(PxRPBzeQ7, IntegerType), OutParam(qBk3lx3jH, FloatType), OutParam(FvLziXwJo, FloatType), Param(qwqPErqbf, StringType)], VSmgoSkVm, BlockStmt([AssignStmt(Id(NTbZIVteN), BinExpr(<, IntegerLit(979), IntegerLit(993)))]))
+])

@@ -1,6 +1,0 @@
- 
-        main : function  void ( ) {
-             for (pDMYsFcRT=-430, wooxtuKmR >= 277, BvYfEnhaL+346)
-                continue;
-        }
-        

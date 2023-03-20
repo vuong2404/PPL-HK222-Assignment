@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(eOYtvrJUG, FloatType, [OutParam(YTIjDWw, FloatType)], None, BlockStmt([IfStmt(BinExpr(>=, Id(jMjL5hzsc), Id(_37)), AssignStmt(Id(rYiamy), BinExpr(!=, Id(jzaSXMzfw), StringLit(\'zrRu))))]))
+])

@@ -1,0 +1,10 @@
+ 
+        main : function  void () {
+            a : array [5] of integer = {1,2,3,4} ;
+            b = a[0] ;
+            c = a[1] ;
+            a[2] = b + c ;
+            d[1,2,3] = a[1,2,3] + a[b] ;
+            printInt(a[1,2,3,4]) ;
+        }
+        

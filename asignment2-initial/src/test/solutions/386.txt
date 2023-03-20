@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(mdRe2OYKc, StringType, [Param(ClProGWDX, StringType), Param(bZPlYgHtq, IntegerType)], OrpsNUbuz, BlockStmt([ReturnStmt(BinExpr(>, Id(O6koCBrmc), UnExpr(-, IntegerLit(211))))]))
+])

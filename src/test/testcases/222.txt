@@ -1,5 +1,0 @@
- 
-        main : function integer ()  {
-           // typr of main function is void
-        }
-        

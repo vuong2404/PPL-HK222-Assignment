@@ -1,5 +1,0 @@
- 
-        main : function void (a: integer)  {
-           // main function have no parameter
-        }
-        

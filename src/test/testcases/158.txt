@@ -1,3 +1,0 @@
-/* main: function integer {
-               print("hello wworld")
-            */ }

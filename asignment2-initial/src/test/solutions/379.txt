@@ -1,0 +1,5 @@
+Program([
+	VarDecl(Lk9KhmSVz, VoidType, BinExpr(!=, FuncCall(JoDJsJfJQ, [BinExpr(==, Id(RDd9RKpRe), UnExpr(-, FloatLit(0.95)))]), StringLit(6gpNE)))
+	VarDecl(QeVWLd6Vq, VoidType, BinExpr(==, Id(feIxHhHCv), UnExpr(-, IntegerLit(675))))
+	VarDecl(gWS85dvnJ, VoidType, IntegerLit(2))
+])

@@ -1,0 +1,9 @@
+ 
+        main : function  void () {
+            a: integer = 1_243234;
+            b : float = 2e-1 ;
+            c: float = 12.5E-6 ;
+            c = a + b ;
+            c = c * 4 ;
+        }
+        

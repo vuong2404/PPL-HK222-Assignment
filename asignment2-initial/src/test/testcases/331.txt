@@ -1,0 +1,8 @@
+ 
+        main : function  void () {
+            a: string = 1.e2 ;
+            b : auto ;
+            c,d,e,f: integer = sum(a), len(a), a*b/c||a&&d, a + b - c * d /e ;
+            e = a() + b(b(),c());
+        }
+        

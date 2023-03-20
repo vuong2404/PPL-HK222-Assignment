@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(sumOfArray, VoidType, [Param(a, ArrayType([5], IntegerType)), OutParam(result, IntegerType)], Array, BlockStmt([IfStmt(BinExpr(!=, Id(result), IntegerLit(0)), AssignStmt(Id(result), IntegerLit(0))), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), FuncCall(len, [Id(a)])), BinExpr(+, Id(i), IntegerLit(1)), AssignStmt(Id(result), BinExpr(+, Id(result), Id(i)))), CallStmt(print, Id(result)), ForStmt(AssignStmt(Id(i), IntegerLit(3)), BinExpr(>, Id(i), IntegerLit(0)), BinExpr(-, Id(i), IntegerLit(1)), BlockStmt([CallStmt(print, Id(i)), AssignStmt(Id(i), BinExpr(+, Id(i), IntegerLit(1)))]))]))
+])

@@ -1,0 +1,10 @@
+
+        sum: function void(out ressult:integer,inherit a: integer,inherit out b: integer) inherit abc{
+           result =  a + b ; 
+        }
+        main: function void() {
+            result,a,b: integer = 0, 10, 19 ;
+            sum(result, a, b) ;
+            printInteger(result) ; 
+        }
+        

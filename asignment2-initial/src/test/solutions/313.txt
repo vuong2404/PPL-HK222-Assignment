@@ -1,0 +1,8 @@
+Program([
+	VarDecl(dvtNu, BooleanType, BinExpr(>, Id(OZTnq), StringLit(T3bce)))
+	VarDecl(GkXYLy, BooleanType, BinExpr(!=, Id(S2ciZVlbO), IntegerLit(979)))
+	VarDecl(CtWWg, BooleanType, BinExpr(-, BinExpr(-, Id(cXt1Dpk3l), Id(_85)), IntegerLit(23)))
+	VarDecl(BiMJ9, BooleanType, BinExpr(-, BinExpr(-, UnExpr(-, IntegerLit(438)), Id(_23)), IntegerLit(332209)))
+	VarDecl(hgJvA, BooleanType, IntegerLit(585))
+	VarDecl(DohAb, BooleanType, BinExpr(-, BinExpr(-, UnExpr(-, IntegerLit(847)), IntegerLit(416)), IntegerLit(753)))
+])

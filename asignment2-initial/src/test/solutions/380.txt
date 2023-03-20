@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([ForStmt(AssignStmt(Id(pDMYsFcRT), UnExpr(-, IntegerLit(430))), BinExpr(>=, Id(wooxtuKmR), IntegerLit(277)), BinExpr(+, Id(BvYfEnhaL), IntegerLit(346)), ContinueStmt())]))
+])

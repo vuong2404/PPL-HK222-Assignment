@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(hjj9pfFxl, IntegerType, [InheritOutParam(jfigupugy, IntegerType), OutParam(fDyvnqIxV, StringType)], TfcV9WZzb, BlockStmt([AssignStmt(Id(nWHQpnfW), BinExpr(>, Id(BwsvaDRoy), Id(DxNrGYIKs)))]))
+])

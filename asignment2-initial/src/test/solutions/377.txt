@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(YsBaKPqDO, FloatType, [InheritOutParam(EBjrIFazv, FloatType)], None, BlockStmt([AssignStmt(Id(etBDUv), BinExpr(==, FuncCall(rCvHpuMkh, [BinExpr(<, Id(Hf4ArivdD), IntegerLit(152))]), StringLit(VcuLS)))]))
+])

@@ -1,0 +1,14 @@
+
+        main: function void() {
+            result = 0 ;
+            a: array [2,2] of integer = {{1,2}, {2,3}} ;
+            sumOfArray(a, result) ;
+            printInt(result) ;
+            a[1,1] = a + b + c * d *e *f /g;
+            for (i = a[0], i < len(a) , i + 1) {
+                if (i == 312_4234) print(i) ;
+                else i(a[1,2,3]) ;
+                print(a[0]) ;
+            }
+        }
+        

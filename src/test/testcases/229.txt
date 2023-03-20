@@ -1,5 +1,0 @@
- 
-        foo : function string ( inherit out OMsQMycjS:float ) inherit yJyjJjUPU {
-            a2 + 3 = a + b ;
-        }
-        

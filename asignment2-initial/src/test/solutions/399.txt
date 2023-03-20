@@ -1,0 +1,3 @@
+Program([
+	VarDecl(Lzj3Kokx0, IntegerType)
+])

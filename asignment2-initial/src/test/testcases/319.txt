@@ -1,0 +1,10 @@
+ 
+        main : function float (a: integer, b: float, c: boolean)  {
+           a = b + c ;
+           {
+               temp: string = a;
+               a = b ;
+               b= temp ;
+           }
+        }
+        

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(lVAuLrqDZ, StringType, [InheritOutParam(UMhKL4xEV, IntegerType)], None, BlockStmt([ContinueStmt(), ForStmt(AssignStmt(Id(udM6kBJiX), UnExpr(-, IntegerLit(124))), BinExpr(>, Id(kDVsZHYeT), Id(tUrjHXEP2)), BinExpr(+, Id(QZX3Rjneb), UnExpr(-, IntegerLit(214))), AssignStmt(Id(tJckJBAAc), BinExpr(>, FuncCall(BHQqd9HTy, [BinExpr(<, Id(FSemFBxy3), StringLit(okW6o)), BinExpr(==, Id(ZxwoJAlXB), Id(rIkPoeV8Z))]), StringLit(NS\'\"K))))]))
+])

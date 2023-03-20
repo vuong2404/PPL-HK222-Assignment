@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(sum, VoidType, [OutParam(ressult, IntegerType), InheritParam(a, IntegerType), InheritOutParam(b, IntegerType)], abc, BlockStmt([AssignStmt(Id(result), BinExpr(+, Id(a), Id(b)))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(result, IntegerType, IntegerLit(0)), VarDecl(a, IntegerType, IntegerLit(10)), VarDecl(b, IntegerType, IntegerLit(19)), CallStmt(sum, Id(result), Id(a), Id(b)), CallStmt(printInteger, Id(result))]))
+])

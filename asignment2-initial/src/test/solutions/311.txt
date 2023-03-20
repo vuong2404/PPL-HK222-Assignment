@@ -1,0 +1,5 @@
+Program([
+	VarDecl(a, StringType, StringLit(hello))
+	VarDecl(b, StringType, StringLit(hello, World))
+	VarDecl(c, StringType, StringLit(hello))
+])

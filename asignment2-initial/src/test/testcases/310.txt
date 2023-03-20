@@ -1,0 +1,1 @@
+a, b: array [1_522] of integer = 3,4;

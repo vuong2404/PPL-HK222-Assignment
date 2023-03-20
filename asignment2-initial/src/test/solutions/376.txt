@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(HKzSuOpwB, StringType, [OutParam(Y46sILsGL, StringType)], None, BlockStmt([VarDecl(VEuUTaAYd, VoidType), VarDecl(qALCcPbwB, VoidType)]))
+])

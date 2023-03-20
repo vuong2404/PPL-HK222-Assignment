@@ -1,0 +1,14 @@
+
+        main: function void() {
+            result = 0 ;
+            for (i = a[0], i < len(a) , i + 1) {
+                a ,b , c: string = "fafafa", a[12,3] , b ;
+                if (i == 312_4234) print(i);
+                else i(a[1,2,3]) ;
+                print(a[0]) ;
+                break ; 
+                continue ;
+            }
+            a = a::b + 1 ;
+        }
+        

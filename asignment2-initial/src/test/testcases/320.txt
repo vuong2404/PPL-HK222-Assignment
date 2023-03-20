@@ -1,0 +1,5 @@
+ 
+        main : function auto (a: integer) inherit abc {
+            return 212*c+b/a>c+a::b||a;
+        }
+        
