@@ -1,0 +1,1 @@
+ a: array \ss\ of integer = {1, 5, 7, 12} 

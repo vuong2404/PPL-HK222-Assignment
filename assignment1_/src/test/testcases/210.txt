@@ -1,0 +1,1 @@
+kgpInzKzB: array [] of integer;

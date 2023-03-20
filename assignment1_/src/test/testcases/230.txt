@@ -1,0 +1,5 @@
+ 
+        check : function  boolean ( str:string, out piq1PC3Aj:integer ) inherit String {
+            return len(str) <= len("\"eDfY");
+        }
+        
