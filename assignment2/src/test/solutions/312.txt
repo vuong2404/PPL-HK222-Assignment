@@ -1,5 +1,0 @@
-Program([
-	VarDecl(a, StringType, BinExpr(==, Id(a), Id(b)))
-	VarDecl(b, StringType, BinExpr(+, Id(a), IntegerLit(1)))
-	VarDecl(c, StringType, BinExpr(+, Id(c), Id(d)))
-])

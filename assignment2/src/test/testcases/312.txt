@@ -1,1 +1,0 @@
-a,b,c: string = a == b , a + 1, c + d;

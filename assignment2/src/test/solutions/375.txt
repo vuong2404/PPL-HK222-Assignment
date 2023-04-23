@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(YLKpfAUkC, FloatType, [Param(ULQRfuoRb, StringType)], AWW0TYqJW, BlockStmt([WhileStmt(BinExpr(==, Id(WWAcGS58C), Id(vfLkEQmDD)), WhileStmt(BinExpr(<, FuncCall(N1jNxtOkU, [BinExpr(==, Id(rhSFE8wPK), IntegerLit(592))]), StringLit(OehJj)), AssignStmt(Id(aXUSZOHGq), BinExpr(!=, Id(Dn0DlQhGD), IntegerLit(498))))), IfStmt(BinExpr(!=, IntegerLit(170), IntegerLit(659)), BlockStmt([VarDecl(H8aHMGS2N, FloatType)]))]))
-])

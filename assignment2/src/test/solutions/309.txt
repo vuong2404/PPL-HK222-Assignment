@@ -1,4 +1,0 @@
-Program([
-	VarDecl(a, ArrayType([5, 22], IntegerType), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3), IntegerLit(4)]))
-	VarDecl(b, ArrayType([5, 22], IntegerType), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3), IntegerLit(4)]))
-])

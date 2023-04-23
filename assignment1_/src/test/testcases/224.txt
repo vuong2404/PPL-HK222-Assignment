@@ -1,5 +1,0 @@
- 
-        main : function void ()  {
-            return 1;
-        }
-        

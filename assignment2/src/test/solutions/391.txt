@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(ZRzoWPdnj, FloatType, [Param(gI88wGAPm, StringType)], None, BlockStmt([AssignStmt(Id(nBkzFSeDj), BinExpr(<, FuncCall(CWEKsKjip, [BinExpr(!=, Id(qVex8sapu), StringLit(OIHPj)), BinExpr(>, Id(ryJoZgjhu), IntegerLit(477))]), StringLit(BYOq4)))]))
-])

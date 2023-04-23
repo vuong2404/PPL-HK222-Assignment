@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, StringType, FloatLit(100.0)), VarDecl(b, AutoType), VarDecl(c, IntegerType, FuncCall(sum, [Id(a)])), VarDecl(d, IntegerType, FuncCall(len, [Id(a)])), VarDecl(e, IntegerType, BinExpr(&&, BinExpr(||, BinExpr(/, BinExpr(*, Id(a), Id(b)), Id(c)), Id(a)), Id(d))), VarDecl(f, IntegerType, BinExpr(-, BinExpr(+, Id(a), Id(b)), BinExpr(/, BinExpr(*, Id(c), Id(d)), Id(e)))), AssignStmt(Id(e), BinExpr(+, FuncCall(a, []), FuncCall(b, [FuncCall(b, []), FuncCall(c, [])])))]))
-])

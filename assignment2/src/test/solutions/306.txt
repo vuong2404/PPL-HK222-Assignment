@@ -1,4 +1,0 @@
-Program([
-	VarDecl(EhrJHKzeO, VoidType)
-	VarDecl(OLp5RUAbd, VoidType)
-])

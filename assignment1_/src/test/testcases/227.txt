@@ -1,6 +1,0 @@
- 
-        ooMWtvLEh : function  void (){
-            if (___ >= 1_7)
-            qBWIBTwxF = WzcyGkfcn < 983;
-        }
-        

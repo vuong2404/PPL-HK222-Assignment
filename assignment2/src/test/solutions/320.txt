@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(main, AutoType, [Param(a, IntegerType)], abc, BlockStmt([ReturnStmt(BinExpr(::, BinExpr(>, BinExpr(+, BinExpr(*, IntegerLit(212), Id(c)), BinExpr(/, Id(b), Id(a))), BinExpr(+, Id(c), Id(a))), BinExpr(||, Id(b), Id(a))))]))
-])

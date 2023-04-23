@@ -1,4 +1,0 @@
-Program([
-	VarDecl(swytrnjUF, VoidType, BinExpr(>=, Id(lGSBYGJgJ), UnExpr(-, FloatLit(0.03))))
-	VarDecl(fawfaw, VoidType, BinExpr(<, FuncCall(iklUnomKB, [BinExpr(==, Id(JjxIQuWRi), Id(_75)), BinExpr(==, Id(dQF6QWJmB), UnExpr(-, IntegerLit(982)))]), StringLit(HxnRu)))
-])

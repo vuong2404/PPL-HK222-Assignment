@@ -1,5 +1,0 @@
-Program([
-	VarDecl(sGzjvlUge, BooleanType, BinExpr(==, Id(BSZSBIdFI), Id(xhWaFgGgJ)))
-	VarDecl(IhcERyqGZ, BooleanType, BinExpr(==, Id(QqVFtERLG), IntegerLit(913)))
-	VarDecl(SZVDdcwrN, BooleanType, BinExpr(>, Id(vgc6gZSJY), UnExpr(-, IntegerLit(907))))
-])

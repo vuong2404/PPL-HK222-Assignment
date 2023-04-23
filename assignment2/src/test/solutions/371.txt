@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(abczyz, FloatType, [InheritOutParam(e9XgkiuWr, IntegerType), Param(WEceApeFD, StringType), InheritOutParam(fFQiZPzNi, IntegerType), OutParam(pjHUhUpkl, StringType)], VYLtCaatH, BlockStmt([ReturnStmt(BinExpr(!=, FuncCall(ltOPmdJQP, [BinExpr(>=, FuncCall(XfC5CRYcb, [BinExpr(<, Id(NwWTHICwq), IntegerLit(846))]), StringLit(JD7Yu)), BinExpr(<, Id(zEBkvdbBi), StringLit(GMASN)), BinExpr(>=, Id(aeemhejkH), IntegerLit(949))]), StringLit(VQ3vb)))]))
-])

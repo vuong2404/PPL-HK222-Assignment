@@ -1,4 +1,0 @@
-Program([
-	VarDecl(ZaMTvuSQB, BooleanType, BinExpr(==, FuncCall(MIktlKXeg, [BinExpr(>=, Id(KHGfDvEpQ), StringLit(CByxr))]), StringLit(XJWWO)))
-	VarDecl(FLKljqK6A, BooleanType, IntegerLit(43124))
-])

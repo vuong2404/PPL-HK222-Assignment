@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(main, FloatType, [Param(a, IntegerType), Param(b, FloatType), Param(c, BooleanType)], None, BlockStmt([AssignStmt(Id(a), BinExpr(+, Id(b), Id(c))), BlockStmt([VarDecl(temp, StringType, Id(a)), AssignStmt(Id(a), Id(b)), AssignStmt(Id(b), Id(temp))])]))
-])

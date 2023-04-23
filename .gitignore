@@ -1,3 +1,9 @@
+*solutions
+*testcases
 *idea.md
 *target
 *.vscode
+
+*.html
+*.js
+*__pycache__

@@ -1,7 +1,0 @@
- 
-        main : function  void () {
-            if (a == 5) 
-              return a ;
-            else return b ;
-        }
-        

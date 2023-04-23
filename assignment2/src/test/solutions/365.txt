@@ -1,3 +1,0 @@
-Program([
-	VarDecl(ZovgPbMwK, IntegerType, BinExpr(>, Id(U7kDjPhZQ), Id(_93)))
-])

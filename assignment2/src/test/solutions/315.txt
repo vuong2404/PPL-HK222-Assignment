@@ -1,3 +1,0 @@
-Program([
-	VarDecl(YGAOlFxv1, StringType, BinExpr(>=, Id(mxZBZaMWK), StringLit(k5z6\')))
-])

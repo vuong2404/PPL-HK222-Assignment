@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(check, BooleanType, [Param(str, StringType), OutParam(piq1PC3Aj, IntegerType)], String, BlockStmt([ReturnStmt(BinExpr(<=, FuncCall(len, [Id(str)]), FuncCall(len, [StringLit(\"eDfY)])))]))
-])

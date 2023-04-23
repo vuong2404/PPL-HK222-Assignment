@@ -1513,4 +1513,16 @@ class ASTGenSuite(unittest.TestCase):
         expect = """Program([
 	VarDecl(LpjzGPwCo, FloatType, BinExpr(!=, Id(zzMHIlqRf), StringLit(vF\\nG\\')))
 ])"""
-        self.assertTrue(TestAST.test(input, expect, 400))
+        self.assertTrue(TestAST.test(input, expect, 400)) 
+    
+    def test_vardecls(self):
+        input = """x, y, z: integer = -1, -2, -3;
+        a, b: float;"""
+        expect = """Program([
+	VarDecl(x, IntegerType, IntegerLit(1))
+	VarDecl(y, IntegerType, IntegerLit(2))
+	VarDecl(z, IntegerType, IntegerLit(3))
+	VarDecl(a, FloatType)
+	VarDecl(b, FloatType)
+])"""
+        self.assertTrue(TestAST.test(input, expect, 401))

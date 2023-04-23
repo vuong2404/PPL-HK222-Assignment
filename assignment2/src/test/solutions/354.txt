@@ -1,4 +1,0 @@
-Program([
-	FuncDecl(findSubstr, StringType, [Param(s, StringType), Param(start, IntegerType), Param(end, IntegerType)], String, BlockStmt([VarDecl(i, IntegerType, IntegerLit(0)), VarDecl(result, StringType, StringLit()), WhileStmt(BinExpr(<=, Id(i), BinExpr(-, FuncCall(len, [Id(s)]), IntegerLit(1))), BlockStmt([IfStmt(BinExpr(&&, BinExpr(>=, Id(i), Id(start)), BinExpr(<=, Id(i), Id(end))), BlockStmt([VarDecl(a, StringType, FuncCall(toString, [ArrayCell(s, [Id(i)])])), AssignStmt(Id(result), BinExpr(+, Id(result), ArrayCell(s, [Id(i)])))]), AssignStmt(Id(i), BinExpr(+, Id(i), IntegerLit(1))))])), ReturnStmt(Id(result))]))
-	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(result), IntegerLit(0)), VarDecl(s, StringType, StringLit(Hello world!)), AssignStmt(Id(subtr), FuncCall(findSubtr, [Id(s), IntegerLit(0), IntegerLit(5)])), CallStmt(printInt, Id(substr))]))
-])

@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(BinExpr(==, Id(a), IntegerLit(5)), ReturnStmt(Id(a)), ReturnStmt(Id(b)))]))
-])

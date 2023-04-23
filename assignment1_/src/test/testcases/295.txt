@@ -1,5 +1,0 @@
- 
-        main : function  integer ( PxRPBzeQ7:integer, out qBk3lx3jH:float, out FvLziXwJo:float, qwqPErqbf:string ) inherit VSmgoSkVm {
-            NTbZIVteN = 979 < 993;
-        }
-        

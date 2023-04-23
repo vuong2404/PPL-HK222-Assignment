@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, IntegerType, IntegerLit(1243234)), VarDecl(b, FloatType, FloatLit(0.2)), VarDecl(c, FloatType, FloatLit(1.25e-05)), AssignStmt(Id(c), BinExpr(+, Id(a), Id(b))), AssignStmt(Id(c), BinExpr(*, Id(c), IntegerLit(4)))]))
-])

@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(main, FloatType, [InheritOutParam(xxrRpmn9v, FloatType), OutParam(dr4hE0KO5, StringType)], xHDmbATrr, BlockStmt([BreakStmt(), AssignStmt(Id(MUcczyWVC), BinExpr(<, Id(Aol0ZSZKf), IntegerLit(473)))]))
-])

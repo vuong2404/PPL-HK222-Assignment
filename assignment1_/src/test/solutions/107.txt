@@ -1,1 +1,0 @@
-Bool,False,Auto,Integer,EOF,tmt,<EOF>

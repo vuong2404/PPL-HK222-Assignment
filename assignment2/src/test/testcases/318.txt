@@ -1,4 +1,0 @@
- 
-        main : function void (a: integer)  {
-        }
-        

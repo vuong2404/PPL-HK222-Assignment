@@ -1,5 +1,0 @@
-Program([
-	VarDecl(wduH3Uqoc, IntegerType)
-	VarDecl(ZSliw2f9T, IntegerType)
-	VarDecl(SjOiHOwvK, IntegerType)
-])

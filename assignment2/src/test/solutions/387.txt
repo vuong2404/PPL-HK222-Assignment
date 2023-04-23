@@ -1,5 +1,0 @@
-Program([
-	VarDecl(WKdYgvrTt, FloatType, BinExpr(>=, Id(LnYoiyYpr), BinExpr(+, BinExpr(*, Id(_1_), Id(OoeEixaYD)), IntegerLit(629))))
-	VarDecl(dhUTkloVQ, FloatType, ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3)]))
-	VarDecl(fiLNFipIe, FloatType, StringLit(hello\"world\"))
-])

@@ -1,9 +1,0 @@
- 
-        main : function  void () {
-            a: integer = 1 ;
-            b : integer = 2 ;
-            c: integer ;
-            c = a + b ;
-            c = c * 4 ;
-        }
-        

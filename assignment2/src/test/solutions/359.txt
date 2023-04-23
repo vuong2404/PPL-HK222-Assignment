@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(find, StringType, [Param(s, StringType), Param(ch, StringType)], String, BlockStmt([VarDecl(i, IntegerType, IntegerLit(0)), VarDecl(result, IntegerType, UnExpr(-, IntegerLit(1))), WhileStmt(BinExpr(<=, Id(i), BinExpr(-, FuncCall(len, [Id(s)]), IntegerLit(1))), BlockStmt([IfStmt(BinExpr(==, ArrayCell(s, [Id(i)]), Id(d)), BlockStmt([AssignStmt(Id(result), Id(i)), BreakStmt()]), BlockStmt([AssignStmt(Id(i), BinExpr(+, Id(i), IntegerLit(1))), ContinueStmt()]))])), ReturnStmt(Id(result))]))
-])

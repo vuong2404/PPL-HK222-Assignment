@@ -1,9 +1,0 @@
- 
-        main : function  void () {
-            a: integer = 1 ;
-            b : integer = 2 ;
-            c: integer ;
-            a = b>c ;
-            e , f : boolean = a[0,0] > b + sum(a,b) || b , a - b > !c + d*e/f || c +d + a;
-        }
-        

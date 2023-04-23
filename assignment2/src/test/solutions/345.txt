@@ -1,4 +1,0 @@
-Program([
-	FuncDecl(sumOfArray, VoidType, [Param(a, ArrayType([2, 2], IntegerType)), OutParam(result, IntegerType)], Array, BlockStmt([IfStmt(BinExpr(!=, Id(result), IntegerLit(0)), AssignStmt(Id(result), IntegerLit(0))), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), FuncCall(len, [Id(a)])), BinExpr(+, Id(i), IntegerLit(1)), ForStmt(AssignStmt(Id(j), IntegerLit(0)), BinExpr(>, Id(j), FuncCall(len, [ArrayCell(a, [IntegerLit(0)])])), BinExpr(+, Id(j), IntegerLit(1)), AssignStmt(Id(result), BinExpr(+, Id(result), ArrayCell(a, [Id(i), Id(j)])))))]))
-	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(result), IntegerLit(0)), VarDecl(a, ArrayType([2, 2], IntegerType), ArrayLit([ArrayLit([IntegerLit(1), IntegerLit(2)]), ArrayLit([IntegerLit(2), IntegerLit(3)])])), CallStmt(sumOfArray, Id(a), Id(result)), CallStmt(printInt, Id(result))]))
-])

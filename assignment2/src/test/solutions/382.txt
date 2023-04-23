@@ -1,4 +1,0 @@
-Program([
-	VarDecl(vnyFswZXh, IntegerType, IntegerLit(4))
-	VarDecl(ChHuAcFwC, IntegerType, BinExpr(!=, Id(mFQIbs8W), StringLit(bT2\ts)))
-])

@@ -1,3 +1,0 @@
-Program([
-	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(result), IntegerLit(0)), VarDecl(a, ArrayType([2, 2], IntegerType), ArrayLit([ArrayLit([IntegerLit(1), IntegerLit(2)]), ArrayLit([IntegerLit(2), IntegerLit(3)])])), CallStmt(sumOfArray, Id(a), Id(result)), CallStmt(printInt, Id(result)), BlockStmt([VarDecl(a, StringType, ArrayCell(a, [IntegerLit(1), IntegerLit(2)])), VarDecl(b, StringType, BinExpr(*, Id(a), Id(b))), VarDecl(c, StringType, BinExpr(%, Id(b), Id(a)))])]))
-])

@@ -1,3 +1,0 @@
-Program([
-	VarDecl(gumCiFlgP, VoidType, BinExpr(>=, Id(pCgXMdc9Z), IntegerLit(664)))
-])
